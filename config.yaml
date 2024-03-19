@@ -1,0 +1,11 @@
+redis:
+    addr: "localhost:6379"
+
+postgres:
+  Addr: "localhost:5432"
+  User: "postgres"
+  Password: "postgres"
+  Database: "postgres"
+floodcontrol:
+  limit: 100
+  timeout: 60
